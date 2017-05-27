@@ -49,7 +49,7 @@ p {
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: #A3BAC3;
+    background-color: #ffffff;
     height: 4rem;
     width: 100%;
     top: 0;
@@ -224,9 +224,7 @@ nav a:hover {
     .intro-content h3 {
         padding: 1rem 1rem 1.5rem 1rem;
     }
-    .intro-content .button {
-        margin: 0 auto;
-    }
+
 }
 /* end mobile display rules */
 
@@ -315,7 +313,7 @@ nav a:hover {
     position: relative;
     display: block;
     visibility: hidden;
-    color: #ffffff;
+    color: #424949;
     margin-top: -2rem;
     font-size: 1.25rem;
 }
@@ -344,6 +342,7 @@ nav a:hover {
     .info-content:hover #display-control {
         visibility: visible;
         transition: 250ms ease;
+        color:#ffffff;
     }
 
     .info-content:hover {
@@ -493,10 +492,11 @@ nav a:hover {
         display: block;
         width: 93%;
         margin: 0.25rem 1rem;
-        background-color: #d3d3d3;
+        background-color: #007e94;
     }
     .course-text {
         min-height: auto;
+        color:#ffffff;
     }
 }
 /* End CURRICULUM section */
